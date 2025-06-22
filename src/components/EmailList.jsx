@@ -2,7 +2,7 @@ import React from "react";
 import EmailRow from "./EmailRow";
 const data = {
   Primary: [
-    { sender: "LIC EPS", subject: "Confirmation from LIC", time: "12:16" },
+    { sender: "EPS", subject: "Confirmation from EPS", time: "12:16" },
     { sender: "TicketAdmin", subject: "Cancel Ticket", time: "11:45" },
   ],
   Promotions: [
