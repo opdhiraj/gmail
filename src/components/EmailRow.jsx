@@ -1,8 +1,11 @@
 import React from "react";
 
-const EmailRow = ({ sender, subject, time }) => {
+const EmailRow = ({ sender, subject, time, onClick }) => {
   return (
-    <div className="flex items-center px-4 py-2 hover:bg-gray-100 border-b">
+    <div
+      onClick={onClick}
+      className="flex items-center px-4 py-2 hover:bg-gray-100 border-b"
+    >
       <input type="checkbox" className="mr-2" />
       <span className="mr-2">⭐</span>
       <div className="flex flex-1 items-center justify-between">
